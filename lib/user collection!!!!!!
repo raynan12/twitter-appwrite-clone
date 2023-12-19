@@ -1,0 +1,49 @@
+// cria a coleção de usuários!!!!!!!!!!!!!
+
+// error USERAPI
+
+// adicione o get no tweet
+
+// adicione o hashtag nos atributos do tweet ("array"), tamanho de 60 e tambem crie 
+// imageLinks com o tamanho de 255 e array ._.
+
+// storage => create IMAGES, copy id
+
+// adicione o get no storage
+
+// any user em imagens
+
+// tweets => retweetedBy, String, 255, required
+// tweets => repliedTo, String, 255, required
+// tweets => replies, Key, atribute: repliedTo, Order: DESC
+
+// users => index {
+//     index key: searching,
+//     index type: FullText,
+//     atribute: name,
+//     order: desc
+// }
+
+// tweets index => uideq, 'key',  atribute: 'uid', order: 'desc',
+
+// tweets, notifications collection, copy id, and {
+//     atributes: text, 255, string, required,
+//     postID, 255, required,
+//     uid, String, 255, required,
+//     notificationType, String, 255, required,
+//     any user em settings,
+// }
+
+// notifications => index {
+//     uideq,
+//     key,
+//     uid,
+//     DESC,
+// }
+
+// tweets index {
+//     index key: searchByHashtag
+//     index type: FullText,
+//     atribute: hashtags,
+//     order: DESC,
+// }
